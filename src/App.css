@@ -1,0 +1,41 @@
+html,
+body,
+.container,
+.carousel {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.ui.segment{
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  border-radius: 0;
+  background-color: #262626;
+}
+
+.carousel-image {
+  height: 100vh;
+  width: 100%;
+  transition: background-image 0.3s ease-in-out;
+}
+.title-text{
+  color:#fff!important;
+  padding-bottom: 20px;
+}
+
+.carousel-arrow {
+  cursor: pointer;
+  font-size: 5rem;
+  position: fixed;
+  top: 50vh;
+  color: #cccc00;
+}
+
+.carousel-arrow.right {
+  right: 1rem;
+}
+
+.carousel-arrow.left {
+  left: 1rem;
+}
